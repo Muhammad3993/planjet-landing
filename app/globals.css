@@ -2,20 +2,113 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+html {
+  scroll-behavior: smooth;
 }
 
 body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+  background: url("../public/images/bg.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.container {
+  width: 100%;
+  max-width: 1352px;
+  margin: auto;
+  padding: 40px 10px;
+  z-index: 1;
+}
+.container-manage {
+  width: 100%;
+  max-width: 1352px;
+  margin: auto;
+  padding: 40px 10px;
+  z-index: 1;
+}
+
+.img {
+  width: 600px;
+  height: 500px;
+  background: url("../public/images/cell.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: absolute;
+  top: -265px;
+  right: 0;
+  /* filter: blur(10px); */
+  z-index: -2;
+}
+
+.img1 {
+  width: 410px;
+  height: 510px;
+  background: url("../public/images/cell1.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: absolute;
+  top: -200px;
+  right: 0;
+  filter: blur(1px);
+  z-index: -1;
+}
+
+.img2 {
+  width: 170px;
+  height: 470px;
+  background: url("../public/images/cell2.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: absolute;
+  top: -70px;
+  right: 0;
+  /* filter: blur(10px); */
+  z-index: -1;
+}
+
+.img3 {
+  width: 589px;
+  height: 460px;
+  background: url("../public/images/cell3.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 700px;
+  left: 0;
+  /* filter: blur(10px); */
+  z-index: -1;
+}
+
+.img4 {
+  width: 434px;
+  height: 450px;
+  background: url("../public/images/cell4.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 600px;
+  left: -10px;
+  /* filter: blur(10px); */
+  z-index: -1;
+}
+
+.img5 {
+  width: 245px;
+  height: 354px;
+  background: url("../public/images/cell5.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 420px;
+  left: -10px;
+  /* filter: blur(10px); */
+  z-index: -1;
+}
+
+
+@media screen and (max-width: 414px) {
+  .container-manage {
+    max-width: none !important;
+    padding: 10px 0;
+  }
 }

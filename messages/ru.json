@@ -1,0 +1,42 @@
+{
+  "Navbar": {
+    "about_project": "О проекте",
+    "open_source": "Open-source",
+    "self_hosted": "Self-hosted"
+  },
+  "Hero": {
+    "hero_title": "Open-Source проект менеджмент в ваш Telegram чат",
+    "hero_subtitle": "Внедряйте удобный инструмент для планировки и управления задачами",
+    "try": "Попробовать"
+  },
+  "Integration": {
+    "integration_with_telegram": "Интеграция с группами и супергруппами Telegram",
+    "easy_integration": "Легкая интеграция с группами и супергруппами Telegram.",
+    "manage_notifications": "Управление целями  и уведомления при изменения статусов задач"
+  },
+  "Create": {
+    "create_task": "Создавайте задачи удобным для вас способом",
+    "ability_create": "Возможность создания задач как через интерфейс мини-приложения, так и непосредственно в чате с ботом.",
+    "convenient_input": "Удобный формат ввода, позволяющий быстро задавать название, описание и сроки выполнения задачи."
+  },
+  "Open-source": {
+    "open_source": "Open-source",
+    "open_source_text": "Проект PlanJet с открытым исходным кодом.",
+    "open_source_text_1": "Доступен для модификации и распространения"
+  },
+  "Self-hosted": {
+    "self_hosted": "Self-hosted",
+    "self_hosted_text": "Безопасность и приватность данных",
+    "data_control": "Контроль данных",
+    "data_control_title": "Высокая конфиденциальность ваших данных. Управляйте и храните данные на своих серверах",
+    "customizability": "Настраиваемость",
+    "customizability_title": "Возможность модифицировать код и функционал под свои специфические требования",
+    "independence": "Независимость",
+    "independence_title": "Нет риска отключения сервиса."
+  },
+  "Manage": {
+    "manage_task_with_planjet": "Управляйте задачами эффективно с PlanJet",
+    "manage_task_with_planjet_title": "Напишите нам для быстрого внедрения инструмента в вашу команду",
+    "contact": "Связаться"
+  }
+}

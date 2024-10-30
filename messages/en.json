@@ -1,0 +1,42 @@
+{
+  "Navbar": {
+    "about_project": "About project",
+    "open_source": "Open-source",
+    "self_hosted": "Self-hosted"
+  },
+  "Hero": {
+    "hero_title": "Open-Source project management in your Telegram chat",
+    "hero_subtitle": "Implement a user-friendly tool for scheduling and task management",
+    "try": "Try it"
+  },
+  "Integration": {
+    "integration_with_telegram": "Integration with Telegram groups and supergroups",
+    "easy_integration": "Easy integration with Telegram groups and supergroups",
+    "manage_notifications": "Manage goals and notifications when task statuses change"
+  },
+  "Create": {
+    "create_task": "Create tasks in a way that suits you",
+    "ability_create": "The ability to create tasks both through the interface of the mini-application and directly in chat with the bot",
+    "convenient_input": "Convenient input format that allows you to quickly set the name, description and deadline of the task."
+  },
+  "Open-source": {
+    "open_source": "Open-source",
+    "open_source_text": "PlanJet is an open source project.",
+    "open_source_text_1": "Available for modification and distribution"
+  },
+  "Self-hosted": {
+    "self_hosted": "Self-hosted",
+    "self_hosted_text": "Data security and privacy",
+    "data_control": "Data control",
+    "data_control_title": "High privacy of your data. Manage and store your data on your own servers",
+    "customizability": "Customizability",
+    "customizability_title": "Ability to modify code and functionality to meet your specific requirements",
+    "independence": "Independence",
+    "independence_title": "There is no risk of service disconnection."
+  },
+  "Manage": {
+    "manage_task_with_planjet": "Manage tasks efficiently with PlanJet",
+    "manage_task_with_planjet_title": "Contact us to quickly implement the tool in your team",
+    "contact": "Contact"
+  }
+}
