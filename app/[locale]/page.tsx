@@ -1,3 +1,4 @@
+
 import Create from "@/components/Create";
 import Footer from "@/components/Footer";
 import Hero from "@/components/Hero";
@@ -6,6 +7,13 @@ import Manage from "@/components/Manage";
 import Navbar from "@/components/Navbar";
 import OpenSource from "@/components/OpenSource";
 import SelfHosted from "@/components/SelfHosted";
+
+export async function generateStaticParams() {
+  return [
+    { locale: "en" },
+    { locale: "ru" },
+  ];
+}
 
 
 export default function Home() {

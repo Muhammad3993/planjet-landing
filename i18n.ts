@@ -1,14 +1,18 @@
 import { notFound } from "next/navigation";
 import { getRequestConfig } from "next-intl/server";
-import { headers } from "next/headers";
 
 const locales = ["en", "ru"] as const;
 
-export default getRequestConfig(async () => {
-  const header = await headers();
-  const locale = header.get('X-NEXT-INTL-LOCALE');
+export async function generateStaticParams() {
+  return locales.map((locale) => ({
+    locale,
+  }));
+}
 
-  if (!locale || typeof locale !== 'string' || !locales.includes(locale as typeof locales[number])) {
+export default getRequestConfig(async ({ params }) => {
+  const locale = params?.locale;
+
+  if (!locale || !locales.includes(locale as typeof locales[number])) {
     notFound();
   }
 
