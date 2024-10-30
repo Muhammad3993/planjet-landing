@@ -3,6 +3,7 @@ import Image from "next/image";
 import React from "react";
 
 const Create = () => {
+  
   const t = useTranslations("Create");
   return (
     <section className='container'>
